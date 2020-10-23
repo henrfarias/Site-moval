@@ -1,0 +1,235 @@
+@font-face{
+	font-family:fonte-moval;
+	src: url("./Fonte/MyriadPro-Regular.otf");
+}
+
+body{
+	font-family: fonte-moval;
+}
+
+header{
+	background: gainsboro;
+	padding: 20px 0;
+	position: static;
+}
+
+.align-response{
+	position: relative;
+}
+
+.logo{
+	width: 15%;
+}
+
+.menu{
+	width: 940px;
+}
+
+.menu>ul{
+	list-style: none;
+	position: absolute;
+	right: 0;
+	top:30%;
+}
+
+.menu ul li{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+	width: 250px;
+	display: inline-block;
+}
+
+.menu a{
+	border-right: solid 1px #333;
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+	color:black;
+	background: gainsboro;
+	text-align: center;
+	transition: .5s all;
+	cursor: pointer;
+}
+
+.menu a:hover{
+	background: #800;
+	color: white;
+}
+
+@media screen and (max-width: 880px){
+
+.menu ul{
+		position:static;
+		width: 100%;
+}
+
+.menu ul li{
+	float:none;
+	width: 100%;
+	border-bottom: solid 1px #ccc;
+}
+
+}
+
+/*CSS Home*/
+
+h2{
+	text-align: center;
+	background: linear-gradient(90deg, #5F9EA0, #8B0000);
+
+}
+
+.image-banner{
+	width: 70%;
+	opacity: 100%;
+}
+
+main{
+	background: linear-gradient(#FEFEFE, #BBBBBB);
+}
+
+.standard-title{
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 2em 0 1.5em;
+}
+
+.text{
+	text-align: center;
+	margin: 1em 25%;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+strong{
+	font-weight: bold;
+	color: #800000;
+}
+
+em strong{
+	font-weight: normal;
+	color: black;
+	font-style: italic;
+
+}
+
+.representacoes{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.representadas{
+	width: 95%;
+	margin: 0 0 0 3%;
+	text-align: center;
+}
+
+.representadas li{
+	display: inline-block;
+	width: 30%;
+	padding: 2em 0;
+	opacity: 70%;
+	transition: 0.7s all;
+}
+
+.representadas li img{
+	width:50%;
+}
+
+.representadas li:hover{
+	opacity:100%;
+	transform: scale(1.2);
+
+}
+
+footer{
+	margin: 2em 0 0;
+	background: url(../images/bg.jpg);
+	padding: 5em 0;
+	text-align: center;
+}
+
+footer p{
+	color: white;
+	font-size: 13px;
+}
+
+footer p:before{
+	content: "© 2020 - ";
+}
+
+/*CSS Contato*/
+
+form{
+	position: relative;
+	margin: 2em 0 0 2em ;
+}
+
+.labeltext{
+	display: block;
+	margin: 2em 0 0;
+}
+
+.inputtext{
+	display: block;
+	margin-bottom: 2em;
+	width: 50%;
+	padding: 8px;
+}
+
+input::-webkit-input-placeholder , textarea::-webkit-input-placeholder {
+  opacity:.5;
+  color: #555;
+  font-style: italic;
+}
+
+fieldset legend{
+	margin: 1em 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+fieldset label{
+	display: block;
+	margin: 0 0 1em 0;
+	font-size: 16px;
+}
+
+.submit{
+	margin: 1em 10%;
+	width: 30%;
+	height: 45px;
+	font-size: 22px;
+	font-weight: bold;
+	color: white;
+	font-style: italic; 
+	border-radius: 6px;
+	background: #500;
+	transition:.5s all;
+}
+
+.submit:hover{
+	transform: scale(1.01);
+	background: #800;
+}
+
+.mapa{
+	position: absolute;
+	top: 250px;
+	right: 10%;
+	margin: 0;
+	box-shadow: 5px 3px 6px;
+	border: solid 1px #CCC;
+}
+
+.mapa p{
+	padding: 40px 5px;
+	text-align: left;
+	font-style: italic;
+	background: #CCC;
+	box-shadow: 5px 3px 6px;
+}
+
+
