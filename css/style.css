@@ -3,74 +3,15 @@
 	src: url("./Fonte/MyriadPro-Regular.otf");
 }
 
+:root{
+    font-size: 62.5%; /*equivalente á 10px na maioria dos browsers 62,5% de 16px*/
+}
+
 body{
 	font-family: fonte-moval;
-}
-
-header{
-	background: gainsboro;
-	padding: 20px 0;
-	position: static;
-}
-
-.align-response{
-	position: relative;
-}
-
-.logo{
-	width: 15%;
-}
-
-.menu{
-	width: 940px;
-}
-
-.menu>ul{
-	list-style: none;
-	position: absolute;
-	right: 0;
-	top:30%;
-}
-
-.menu ul li{
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 22px;
-	width: 250px;
-	display: inline-block;
-}
-
-.menu a{
-	border-right: solid 1px #333;
-	padding: 20px;
-	display: block;
-	text-decoration: none;
-	color:black;
-	background: gainsboro;
-	text-align: center;
-	transition: .5s all;
-	cursor: pointer;
-}
-
-.menu a:hover{
-	background: #800;
-	color: white;
-}
-
-@media screen and (max-width: 880px){
-
-.menu ul{
-		position:static;
-		width: 100%;
-}
-
-.menu ul li{
-	float:none;
-	width: 100%;
-	border-bottom: solid 1px #ccc;
-}
 
 }
+
 
 /*CSS Home*/
 
