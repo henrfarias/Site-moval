@@ -30,6 +30,10 @@ header{
     border-right: solid 2px #333;
 }
 
+.menu-items li:last-child {
+    border: none;
+}
+
 .menu-items li:hover
  {
 	background: #800;
