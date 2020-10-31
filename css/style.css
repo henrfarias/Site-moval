@@ -56,35 +56,6 @@ em strong{
 
 }
 
-.representacoes{
-	width: 90%;
-	margin: 0 auto;
-}
-
-.representadas{
-	width: 95%;
-	margin: 0 0 0 3%;
-	text-align: center;
-}
-
-.representadas li{
-	display: inline-block;
-	width: 30%;
-	padding: 2em 0;
-	opacity: 70%;
-	transition: 0.7s all;
-}
-
-.representadas li img{
-	width:50%;
-}
-
-.representadas li:hover{
-	opacity:100%;
-	transform: scale(1.2);
-
-}
-
 footer{
 	margin: 2em 0 0;
 	background: url(../images/bg.jpg);
