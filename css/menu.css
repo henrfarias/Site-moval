@@ -1,6 +1,5 @@
 header{
 	background: gainsboro;
-	padding: 20px 0;
 }
 
 .header-container {
@@ -27,15 +26,14 @@ header{
 
 .menu-items li {
     display: flex;
-    border-right: solid 2px #333;
+    border-right: solid 2px #555;
 }
 
 .menu-items li:last-child {
     border: none;
 }
 
-.menu-items li:hover
- {
+.menu-items li:hover {
 	background: #800;
     transition: .3s all;
 }
@@ -43,7 +41,7 @@ header{
 .menu-items a{
     padding: 15px;
 	text-decoration: none;
-	color:black;
+	color:#444;
     cursor: pointer;
     transition: all .3s;
 }
@@ -51,26 +49,4 @@ header{
 
 .menu-items a:hover {
     color: white;
-}
-
-@media (max-width: 760px) {
-   .header-container {
-        flex-direction: column;
-    }
-
-    .menu,
-    .menu-items li {
-    width: 100%;
-    }
-
-    .menu-items {
-        flex-direction: column;
-    }
-
-    .menu-items li {
-        width: 100%;
-        border: none;
-        border-bottom: solid 1px black;
-        justify-content: center;
-    }
 }
