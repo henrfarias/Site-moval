@@ -2,13 +2,13 @@ header{
 	background: gainsboro;
 }
 
-.header-container {
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logo{
+.header__logo{
     width: 200px;
     margin-bottom: 1rem;
 }
@@ -19,26 +19,26 @@ header{
     font-size: 2.2rem;
 }
 
-.menu-items {
+.menu {
     display: flex;
     align-items: center;
 }
 
-.menu-items li {
+.menu__item {
     display: flex;
     border-right: solid 2px #555;
 }
 
-.menu-items li:last-child {
+.menu__item:last-child {
     border: none;
 }
 
-.menu-items li:hover {
+.menu__item:hover {
 	background: #800;
     transition: .3s all;
 }
 
-.menu-items a{
+.menu__link {
     padding: 15px;
 	text-decoration: none;
 	color:#444;
@@ -47,6 +47,6 @@ header{
 }
 
 
-.menu-items a:hover {
+.menu__link:hover {
     color: white;
 }
