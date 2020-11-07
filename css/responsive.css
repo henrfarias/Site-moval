@@ -82,3 +82,13 @@
         border-radius: 5rem;
     }
 }
+
+@media screen and (max-width: 1192px) {
+    .contact__container {
+        flex-direction: column;
+    }
+
+    .map {
+        padding-bottom: 5rem;
+    }
+}
