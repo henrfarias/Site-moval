@@ -1,0 +1,16 @@
+.submit {
+	width: 100%;
+	height: 45px;
+	font-size: 22px;
+	font-weight: bold;
+	color: white;
+	font-style: italic; 
+	border-radius: 6px;
+	background: #500;
+	transition:.5s all;
+}
+
+.submit:hover{
+    transform: scale(1.01);
+    box-shadow: 3px 3px 6px #333;
+}

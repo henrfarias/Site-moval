@@ -1,0 +1,92 @@
+@font-face{
+	font-family:fonte-moval;
+	src: url("./Fonte/MyriadPro-Regular.otf");
+}
+
+:root{
+    font-size: 62.5%; /*equivalente á 10px na maioria dos browsers 62,5% de 16px*/
+}
+
+body{
+	font-family: fonte-moval;
+}
+
+.banner{
+	width: 100%;
+	max-height: 50vh;
+	opacity: 100%;
+	object-fit: cover;
+}
+
+main{
+	background: linear-gradient(#FEFEFE, #BBBBBB);
+}
+
+.standard-title{
+	text-align: center;
+	font-size: 2.2rem;
+	font-weight: bold;
+	padding: 2em 0 1.5em;
+	color: #333;
+}
+
+p {
+	font-size: 2rem;
+	text-align: justify;
+	line-height: 3rem;
+	color: #333;
+
+}
+
+strong{
+	font-weight: bold;
+	color: #832727;
+}
+
+em strong{
+	font-weight: normal;
+	color: #333;
+	font-style: italic;
+}
+
+form{
+	margin: 2em 0 0 2em ;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  opacity:.5;
+  color: #555;
+  font-style: italic;
+}
+
+fieldset legend{
+	margin: 1rem 0;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+fieldset label{
+	display: block;
+	margin: 0 0 1em 0;
+	font-size: 1.6rem;
+}
+
+/* .submit{
+	margin: 1em 10%;
+	width: 30%;
+	height: 45px;
+	font-size: 22px;
+	font-weight: bold;
+	color: white;
+	font-style: italic; 
+	border-radius: 6px;
+	background: #500;
+	transition:.5s all;
+}
+
+.submit:hover{
+	transform: scale(1.01);
+	background: #800;
+} */
+

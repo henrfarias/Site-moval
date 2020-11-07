@@ -6,44 +6,41 @@
 		<link rel="shortcut icon" href="images/logo.png">
 		<title>Moval Representações</title>
 
-		<link rel="stylesheet"	href="css/reset.css">
-		<link rel="stylesheet"	href="css/style.css">
-		<link rel="stylesheet" href="css/menu.css">
+		<link rel="stylesheet"	href="css/base/reset.css">
+		<link rel="stylesheet"	href="css/base/style.css">
+		<link rel="stylesheet" href="css/layout/header.css">
+		<link rel="stylesheet" href="css/layout/about.css">
+		<link rel="stylesheet" href="css/layout/footer.css">
+		<link rel="stylesheet" href="css/module/menu.css">
 		<link rel="stylesheet" href="css/represented.css">
 		<link rel="stylesheet" href="css/responsive.css">
 
 	</head>
 
 	<body>
-		<header>
-			<div class="header">
-				<h1><a href="#"><img class="header__logo" src="images/logo.png" alt="Logo Moval Representações"></a></h1>
-
-				<nav class="header__menu">
-					<ul class="menu">
-						<li class="menu__item"><a class="menu__link" href="#">Início</a></li>
-						<li class="menu__item"><a class="menu__link" href="#">Parceiros</a></li>
-						<li class="menu__item"><a class="menu__link" href="contato.html">Contato</a></li>
-
-					</ul>
-				</nav> 
-			</div>
+		<header class="header">
+			<h1><a href="#"><img class="header__logo" src="images/logo.png" alt="Logo Moval Representações"></a></h1>
+			<nav class="header__menu">
+				<ul class="menu">
+					<li class="menu__item menu__item--active"><a class="menu__link" href="#">Início</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Parceiros</a></li>
+					<li class="menu__item"><a class="menu__link" href="contato.html">Contato</a></li>
+				</ul>
+			</nav> 
 		</header>
 
-		<h2><img class="image-banner" src="images/banner-moval.jpg"></h2>
-
 		<main>
-			<div class="sobre">
+			<h2><img class="banner" src="images/banner-moval.jpg"></h2>
+
+			<section class="about">
 				<h3 class= "standard-title">Sobre nós</h3>
-				<p class="text">Á 8 anos no mercado, nós da <strong>Moval Representações</strong> sempre priorizamos atender aos nossos clientes com honestidade, comprometimento, humildade, inovação, ética e qualidade. Sempre cuidando de cada detalhe, para proporcionar a máxima confiança em nossos serviços.</p>
-				<p class="text"><em>Nossa missão é <strong>levar os melhores produtos para os nossos clientes fazendo parceria com indústrias e distribuidoras que garantem a qualidade em seus produtos, priorizando sempre a transparência e respeito.</strong></em></p>
-			</div>
+				<p>Á 8 anos no mercado, nós da <strong>Moval Representações</strong> sempre priorizamos atender aos nossos clientes com honestidade, comprometimento, humildade, inovação, ética e qualidade. Sempre cuidando de cada detalhe, para proporcionar a máxima confiança em nossos serviços.</p>
+				<p><em>Nossa missão é <strong>levar os melhores produtos para os nossos clientes fazendo parceria com indústrias e distribuidoras que garantem a qualidade em seus produtos, priorizando sempre a transparência e respeito.</strong></em></p>
+			</section>
 
-			<div class="representacoes">
-			
+			<section class="representacoes">
 				<h3 class="standard-title">Conheça nossas representadas:</h3>
-
-				<ul class="representacoes__lista">
+ 				<ul class="representacoes__lista">
 					<li class="representacoes__lista__item"><a href="https://www.romagnole.com.br/"><img src="images/roma.png" alt="logo Romagnole"></a></li>
 					<li class="representacoes__lista__item"><a href="https://onixcd.com.br/"><img src="images/onix.png" alt="logo Onix CD"></a></li>
 					<li class="representacoes__lista__item"><a href="https://tel.com.br/"><img src="images/termotec.png" alt="logo termotécnica"></a></li>
@@ -51,11 +48,11 @@
 					<li class="representacoes__lista__item"><a href="https://www.jclcabos.com.br/"><img src="images/jcl.png" alt="logo JCL"></a></li>
 					<li class="representacoes__lista__item"><a href="http://cogumelo.com.br/escadas-em-fibra-de-vidro/modelos"><img src="images/cogumelo.svg" alt="logo Cogumelo"></a></li>
 				</ul>
-			</div>
+			</section>
 				
-				<footer>
-					<img src="images/logo branco.png" width="300">
-					<p>Moval Representações</p>
+				<footer class="footer">
+					<img class="footer__logo" src="images/logo branco.png">
+					<p class="footer__text">Moval Representações</p>
 				</footer>
 
 		</main>

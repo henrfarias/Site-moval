@@ -1,0 +1,21 @@
+header{
+	background: gainsboro;
+}
+
+.header {
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}

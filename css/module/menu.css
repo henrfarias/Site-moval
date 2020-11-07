@@ -1,45 +1,32 @@
-header{
-	background: gainsboro;
-}
-
-.header {
+.menu{
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-
-.header__logo{
-    width: 200px;
-    margin-bottom: 1rem;
-}
-
-.menu{
     text-transform: uppercase;
 	font-weight: bold;
     font-size: 2.2rem;
 }
 
-.menu {
+.menu__item {
+    height: 100%;
     display: flex;
     align-items: center;
-}
-
-.menu__item {
-    display: flex;
     border-right: solid 2px #555;
-}
-
-.menu__item:last-child {
-    border: none;
-}
-
-.menu__item:hover {
-	background: #800;
+    box-sizing: border-box;
     transition: .3s all;
 }
 
+.menu__item:last-child {
+    border-right: none;
+}
+
+.menu__item:hover,
+.menu__item--active {
+	border-bottom: 5px solid #800 !important;
+}
+
 .menu__link {
-    padding: 15px;
+    padding: 3rem 1.5rem;
 	text-decoration: none;
 	color:#444;
     cursor: pointer;
@@ -48,5 +35,5 @@ header{
 
 
 .menu__link:hover {
-    color: white;
+    color: #555;
 }
