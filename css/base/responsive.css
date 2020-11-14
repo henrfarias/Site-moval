@@ -52,7 +52,7 @@
         max-height: none;
     }
 
-    .represented__lista {
+    .represented__list {
         grid-template: 1fr 1fr 1fr / 1fr 1fr;
     }
 
@@ -89,7 +89,7 @@
 }
 
 @media screen and (max-width: 500px) {
-    .represented__lista {
+    .represented__list {
         display: flex;
         flex-direction: column;
         justify-content: center;
